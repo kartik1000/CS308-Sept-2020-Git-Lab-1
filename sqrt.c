@@ -16,10 +16,12 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
     if(input<0){
-        printf("Input is not valid. Enter a non-negative number");
-        exit(-1);
+       printf("Sqrt of %d is %f i \n",input,sqrt(input));
+        
     }
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+    else{
+	   printf("Sqrt of %d is %f\n",input,sqrt(input));
+    }
     printf("End of Program existing");
 	return(0);
 
