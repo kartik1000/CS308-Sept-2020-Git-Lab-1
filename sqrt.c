@@ -16,10 +16,12 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
     if(input<0){
+       printf("Square root of negative numbers \n");
        printf("Sqrt of %d is %f i \n",input,sqrt(input));
         
     }
     else{
+       printf("Square root of positive  numbers \n");
 	   printf("Sqrt of %d is %f\n",input,sqrt(input));
     }
     printf("End of Program existing");
