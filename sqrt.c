@@ -2,7 +2,7 @@
 positive number. */
 
 // Start Program like ./a.out 5.. For square roort of 5
-// This function will output the square root of a given number
+// This function will output the square root of a given number. Initial Working code.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,6 +16,7 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
+    printf("End of Program existing");
 	return(0);
 
 } // end main
