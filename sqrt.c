@@ -16,15 +16,17 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
     if(input<0){
-       printf("DEBUG: Sqrt of given number /n");
-       printf("DEBUG: Sqrt of %d is %f i \n",input,sqrt(input));
+        printf("DEBUG: Square root of negative numbers \n");
+        printf("DEBUG: Sqrt of given number /n");
+        printf("DEBUG: Sqrt of %d is %f i \n",input,sqrt(input));
         
     }
     else{
-       printf("DEBUG: Sqrt of given number /n");
-	   printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
+        printf("DEBUG: Square root of positive  numbers \n");
+        printf("DEBUG: Sqrt of given number /n");
+	printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
     }
-    printf("NEGSUPPORT: End of Program existing");
-	return(0);
+    printf("DEBUG: End of Program existing");
+    return(0);
 
 } // end main
