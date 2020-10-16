@@ -12,14 +12,14 @@ int main(int argc, char* argv[]) {
 	if (argc != 2) {
 		printf("Usage: sqrt input\n\n");
 		printf("NEGSUPPORT: Usage: sqrt input\n\n");
-		printf("DEBUG: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
     if(input<0){
         printf("Square root of negative numbers \n");
-        printf("NEGSUPPORT: Square root of negative numbers \n");
+        printf("NEGSUPPORT: Sqrt of given number /n");
         printf("DEBUG: Square root of negative numbers \n");
         printf("Sqrt of given number /n");
         printf("NEGSUPPORT: Sqrt of given number /n");
